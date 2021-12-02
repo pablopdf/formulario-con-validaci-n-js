@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Form</title>
+</head>
+<body>
+
+	<form class="form" id="form">
+		
+		<h2 class="form__title">Inicia Sesión</h2>
+		<p class="form__paragraph">¿Aún no tienes una cuenta? <a href="#" class="form__link">Entra aquí</a></p>
+
+			<div class="form__container">
+				<div class="form__group">
+					<input type="text" id="name" class="form__input" placeholder=" ">
+					<label for="name" class="form__label"><i class="far fa-user-circle"></i>Nombre:</label>
+					<span class="form__line"></span>
+				</div>
+				<div class="form__group">
+					<input type="email" id="email" class="form__input" placeholder=" ">
+					<label for="email" class="form__label"><i class="fas fa-at"></i>Email:</label>
+					<span class="form__line"></span>
+				</div>
+				<div class="form__group">
+					<input type="password" id="password" class="form__input" placeholder=" ">
+					<label for="password" class="form__label">
+                                        <i class="fas fa-key"></i>
+                                        Contraseña:</label>
+					<span class="form__line"></span>
+				</div>
+
+				<input type="submit" class="form__submit" value="Entrar">
+
+                <p class="warnings" id="parrafo"></p>
+			</div>
+	<form>
+
+		<script src="app.js"></script>
+
+</body>
+</html>
